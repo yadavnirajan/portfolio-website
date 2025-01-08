@@ -1,0 +1,348 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nirajan's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <a href="index.html">Nirajan's Portfolio</a>
+        </div>
+        <nav class="menu">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#certificates">Certificates</a>
+            <a href="#contact">Contact Me</a>
+        </nav>
+    </header>
+    
+
+    <section class="hero">
+        <div class="profile">
+            <img src="images/profile.jpg" alt="Your Photo" class="profile-img">
+        </div>
+        <div class="intro">
+            <p>Hello, I'm</p>
+            <h1>Nirajan</h1>
+            <h2>Web Developer</h2>
+            <div class="buttons">
+                <a href="resume.pdf" class="btn download" download>Download Resume</a>
+                <a href="#contact" class="btn connect">Have Doubts? Let's Connect</a>
+            </div>
+            <div class="socials">
+                <a href="https://www.instagram.com/yadavnirajan" target="_blank">
+                    <img src="images/instagram-icon.png" alt="Instagram">
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=100078809752130" target="_blank">
+                    <img src="images/facebook-icon.png" alt="Facebook">
+                </a>
+                <a href="https://www.linkedin.com/in/yourprofile" target="_blank">
+                    <img src="images/linkedin-icon.png" alt="LinkedIn">
+                </a>
+                <a href="https://github.com/yourprofile" target="_blank">
+                    <img src="images/github-icon.png" alt="GitHub">
+                </a>
+                <a href="mailto:yadavnirajan47@gmail.com" target="_blank">
+                    <img src="images/email-icon.png" alt="Email">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- JavaScript placed at the end of the body -->
+    <script>
+        window.addEventListener('load', function() {
+            const profileImg = document.querySelector('.profile-img');
+            
+            // When the fade-in animation is complete, enable hover effects
+            profileImg.addEventListener('animationend', function() {
+                profileImg.classList.add('hover-enabled'); // Enable the hover effect
+            });
+        });
+    </script>
+
+<section id="about">
+    <div class="timeline-section">
+      <h4>Get To Know More</h4>
+      <h1>About Me</h1>
+      <div class="timeline">
+        <div class="timeline-item left">
+          <div class="timeline-card">
+            <h2>Full Name</h2>
+            <p>Nirajan Yadav</p>
+          </div>
+        </div>
+        <div class="timeline-item right">
+          <div class="timeline-card">
+            <h2>Date of Birth</h2>
+            <p>April 27, 2004</p>
+          </div>
+        </div>
+        <div class="timeline-item left">
+          <div class="timeline-card">
+            <h2>Residence</h2>
+            <p>Kathmandu, Nepal</p>
+          </div>
+        </div>
+        <div class="timeline-item right">
+          <div class="timeline-card">
+            <h2>Education</h2>
+            <p>Bachelor of Computer Science<br>
+            St. Xavier's College (2022–present)</p>
+          </div>
+        </div>
+        <div class="timeline-item left">
+          <div class="timeline-card">
+            <h2>Languages</h2>
+            <p>Nepali, English</p>
+          </div>
+        </div>
+      </div>
+      <h1>Experience</h1>
+      <div class="timeline">
+        <div class="timeline-item left">
+          <div class="timeline-card">
+            <h2>Nepal Stock Exchange (Nepse) Trader & Investor</h2>
+            <p>Actively trading stocks, developing expertise in market analysis, portfolio management,and risk management.</p>
+          </div>
+        </div>
+        <div class="timeline-item right">
+          <div class="timeline-card">
+            <h2>Web Development</h2>
+            <p>Self Learned</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section id="skills">
+    <div class="skills-section">
+        <h4>Explore My</h4>
+        <h1>Skills</h1>
+        <div class="skills-container">
+            <div class="skill-tag">Trading & Investment Strategies</div>
+            <div class="skill-tag">Data Analysis (using Excel and other tools)</div>
+            <div class="skill-tag">Microsoft Office Suite (Excel, PowerPoint, Word)</div>
+            <div class="skill-tag">Website Development</div>
+            <div class="skill-tag">Social Media Management</div>
+            <div class="skill-tag">Content Writing</div>
+            <div class="skill-tag">Graphic Designing</div>
+        </div>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects">
+  <div class="container">
+      <div class="title">
+          <h4>Take a Look at</h4>
+          <h1>My Projects</h1>
+      </div>
+      <div class="projects-grid">
+          <!-- Project 1 -->
+          <div class="project-card">
+              <img src="Projects/projects-1.png" alt="Portfolio Website">
+              <div class="project-content">
+                  <h2>Portfolio Website</h2>
+                  <a href="index.html" class="view-project-btn">View Project</a>
+              </div>
+          </div>
+          <!-- Project 2 -->
+          <div class="project-card">
+              <img src="Projects/projects-2.jpg" alt="Stock Trading Analysis Tool">
+              <div class="project-content">
+                  <h2>Stock Trading Analysis Tool</h2>
+                  <a href="#" class="view-project-btn">View Project</a>
+              </div>
+          </div>
+          <!-- Project 3 -->
+          <div class="project-card">
+              <img src="Projects/projects-3.png" alt="Personal Blog">
+              <div class="project-content">
+                  <h2>Personal Blog</h2>
+                  <a href="#" class="view-project-btn">View Project</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<section id="certificates">
+  <div class="container">
+      <div class="title">My Awards & Certificates</div>
+      <div class="certificates-grid">
+          <div class="certificate">
+              <img src="Certificates/1.jpg" alt="Google Data Analytics Specialization">
+              <div class="certificate-title">Cyber Security and Ethical Hacking</div>
+          </div>
+          <div class="certificate">
+              <img src="Certificates/2.jpg" alt="Excel: Mother of Business Intelligence">
+              <div class="certificate-title">Runner up-Table Tennis Single(Boys)</div>
+          </div>
+          <div class="certificate">
+              <img src="certificates/3.jpg" alt="Frontend Developer">
+              <div class="certificate-title">Frontend Developer</div>
+          </div>
+          <div class="certificate">
+              <img src="certificates/3.jpg" alt="SQL: Beginner to Advance for Data Analytics">
+              <div class="certificate-title">SQL: Beginner to Advance for Data Analytics</div>
+          </div>
+          <div class="certificate">
+              <img src="certificates/3.jpg" alt="Certified cisco network associate">
+              <div class="certificate-title">Certified cisco network associate</div>
+          </div>
+          <div class="certificate">
+              <img src="certificates/3.jpg" alt="Certified Linux Administrator">
+              <div class="certificate-title">Certified Linux Administrator</div>
+          </div>
+      </div>
+  </div>
+ </section> 
+
+<section id="contact">
+        <div class="contact-container">
+            <!-- Left Section (Text + Social Links) -->
+            <div class="contact-left">
+                <h3>Get in Touch</h3>
+                <h2>Contact Me</h2>
+                <p>Feel free to reach out to me for any inquiries or collaborations. I'm happy to hear from you!</p>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <img src="images/email-icon.png" alt="Email Icon">
+                        <p><strong>Email:</strong> yadavnirajan47@gmail.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <img src="images/phone-call.png" alt="Phone Icon">
+                        <p><strong>Phone:</strong> +977 9814546828</p>
+                    </div>
+                </div>
+                <h4 class="socials-heading">Let's Connect</h4>
+                <div class="contact-socials">
+                    <a href="https://www.instagram.com/yadavnirajan" target="_blank">
+                        <img src="images/instagram-icon.png" alt="Instagram">
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=100078809752130" target="_blank">
+                        <img src="images/facebook-icon.png" alt="Facebook">
+                    </a>
+                    <a href="https://www.linkedin.com/in/yourprofile" target="_blank">
+                        <img src="images/linkedin-icon.png" alt="LinkedIn">
+                    </a>
+                    <a href="https://github.com/yourprofile" target="_blank">
+                        <img src="images/github-icon.png" alt="GitHub">
+                    </a>
+                </div>
+            </div>
+
+            <!-- Right Section (Form) -->
+            <div class="contact-right">
+                <form action="contact_form.php" method="post">
+                    <div class="input-group">
+                        <input type="text" name="name" placeholder="Enter Your Name" required>
+                        
+                    </div>
+                    <div class="input-group">
+                        <input type="email" name="email" placeholder="Enter Your Email" required>
+                        
+                    </div>
+                    <div class="input-group">
+                        <textarea name="message" placeholder="Enter Your Message Here" required></textarea>
+                        
+                    </div>
+                    <button type="submit">Submit<img src="images/paper-plane.png"></button>
+                    
+                </form>
+            </div>
+        </div>
+    </section>
+
+    
+    <script>
+         document.querySelector('a[href="#contact"]').addEventListener('click', (e) => {
+        e.preventDefault(); // Prevent default link behavior
+        document.querySelector('#contact').scrollIntoView({
+          behavior: 'smooth',
+          block: 'start',
+        });
+      });
+      
+    </script>
+    
+<script>// Select all menu links
+// Get all the sections with an id that corresponds to the menu links
+const sections = document.querySelectorAll('section');
+const navLinks = document.querySelectorAll('.menu a');
+
+window.addEventListener('scroll', () => {
+  let current = '';
+
+  // Check each section to find which one is currently in the viewport
+  sections.forEach(section => {
+    const sectionTop = section.offsetTop - 200; // Adjust offset to accommodate for any fixed header
+    const sectionBottom = sectionTop + section.offsetHeight;
+
+    // If the section is in the viewport, assign its id to 'current'
+    if (pageYOffset >= sectionTop && pageYOffset < sectionBottom) {
+      current = section.getAttribute('id');
+    }
+  });
+
+  // Loop through the nav links and add/remove the 'active' class
+  navLinks.forEach(link => {
+    link.classList.remove('active');
+    if (link.getAttribute('href') === `#${current}`) {
+      link.classList.add('active');
+    }
+  });
+});
+</script>
+
+<script>
+// Show/Hide Back-to-Top Button
+window.addEventListener('scroll', () => {
+    const backToTopButton = document.querySelector('.back-to-top');
+    const footer = document.querySelector('footer'); // Replace 'footer' with your last section selector if needed
+    const footerOffset = footer.offsetTop; // Position of the footer
+    const windowHeight = window.innerHeight; // Height of the visible window
+
+    // Check if the user has reached the last section
+    if (window.scrollY + windowHeight >= footerOffset) {
+        backToTopButton.classList.add('visible'); // Show the button
+    } else {
+        backToTopButton.classList.remove('visible'); // Hide the button
+    }
+});
+
+// Scroll to Top Function
+function scrollToTop() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth' // Smooth scrolling
+    });
+}
+
+</script>
+
+<div class="back-to-top" onclick="scrollToTop()">
+    &#x21A5; <!-- Unicode for upward double arrow -->
+</div>
+
+ <body class="footer-body">
+    <footer class="footer">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeuecsdGdSBQkzM2f_ReNj56QSJUv2IbqxsZDcBxvXJshNW7A/viewform?" target="_blank" class="custom-website-btn">
+            Get Your Own Custom Website
+        </a>
+        <span class="developer-info">
+            Developed by <span class="developer-name">Nirajan Yadav</span>
+        </span>
+    </footer>
+ </body>
+    
+</body>
+</html>

@@ -1,0 +1,60 @@
+/* Global Styling */
+#skills {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff; /* Changed background to white */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: scale(0.80);
+    transform-origin: top center;
+    width: 100%;
+}
+
+/* Skills Section */
+#skills {
+    padding: 100px 30px; /* Slightly larger padding for the section */
+    background-color: #fff;
+    text-align: center;
+}
+
+.skills-section h4 {
+    font-size: 20px; /* Increased font size */
+    font-weight: 500;
+    color: #666;
+    margin-bottom: -30px; /* Adjusted margin for spacing */
+}
+
+.skills-section h1 {
+    font-size: 42px; /* Larger headline */
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 40px; /* Balanced spacing */
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px; /* Increased gap between skill tags */
+}
+
+.skill-tag {
+    border: 2px solid #333;
+    border-radius: 10px; /* Slightly more rounding */
+    padding: 15px 30px; /* Increased padding for larger skill tags */
+    font-size: 18px; /* Increased font size */
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #333;
+    cursor: pointer;
+    background-color: #fff;
+    transition: all 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.skill-tag:hover {
+    background-color: #333;
+    color: #fff;
+    border-color: #333;
+}

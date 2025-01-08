@@ -1,0 +1,50 @@
+.footer-body {
+    margin: 0;
+    font-family: Poppins, sans-serif;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 15px 15px; /* Reduced padding */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box; /* Prevent overflow */
+}
+
+.custom-website-btn {
+    display: inline-block;
+    padding: 5px 15px; /* Reduced padding for a smaller button */
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px; /* Slightly smaller border-radius */
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 12px; /* Smaller font size */
+    transition: background-color 0.3s, color 0.3s;
+    white-space: nowrap; /* Prevent wrapping */
+}
+
+.custom-website-btn:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.developer-info {
+    font-size: 15px; /* Reduced font size */
+    white-space: nowrap; /* Prevent wrapping */
+}
+
+.developer-info .developer-name {
+    font-weight: bold;
+    color: #ffa500;
+}
+
+footer {
+    overflow: hidden; /* Prevent overflow */
+}
